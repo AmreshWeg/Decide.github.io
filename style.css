@@ -15,6 +15,7 @@ html{
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
+    background-color: #c1c1c1;
 }
 .adding{
     width: 60vw;
@@ -33,7 +34,8 @@ html{
     border: none;
     outline: none;
     text-align: center;
-    box-shadow: 6.5px 13.0px 13.0px hsla(0, 0%, 0%, 0.155),inset 0px 0px 15px rgba(0, 0, 0, 0.151);
+    background-color: #c1c1c1;
+    box-shadow:inset -3px -3px 7px rgba(255, 255, 255, 0.621),inset 3px 3px 5px rgba(0, 0, 0, 0.342);
 }
 .add{
     width: 120px;
@@ -44,10 +46,11 @@ html{
     font-weight: bolder;
     font-size: 17px;
     transition: 0.5s ease-in-out;
+    background-color: #c1c1c1;
+    box-shadow:inset -3px -3px 10px white,inset 3px 3px 8px rgba(0, 0, 0, 0.342);
 }
 .add:hover{
     transform: scale(1.05);
-    box-shadow: 0px 0px 8px rgb(63, 247, 63);
 }
 
 .select,.addlist{
@@ -60,11 +63,16 @@ html{
     font-size: 6rem;
     /* border: 2px solid rgb(35, 232, 35); */
     border-radius: 20px;
-    color: rgb(46, 255, 46);
-    box-shadow: 6.5px 13.0px 13.0px hsla(0, 0%, 0%, 0.155),inset 0px 0px 15px rgba(0, 0, 0, 0.151);
+    background-color: #c1c1c1;
+    box-shadow:-3px -3px 7px rgba(255, 255, 255, 0.824),3px 3px 7px rgba(0, 0, 0, 0.342);
     
     
 }
+.select h2{
+    color: #ababab;
+    text-shadow:-3px -4px 7px rgba(255, 255, 255, 0.336),3px 3px 7px rgba(0, 0, 0, 0.342);
+}
+ 
 
 
 .addlist{
@@ -75,7 +83,13 @@ html{
     justify-content: center;
     text-align: center;
     flex-direction: column;
+    color: #ababab;
+    text-shadow:-3px -4px 7px rgba(255, 255, 255, 0.468),3px 3px 7px rgba(0, 0, 0, 0.094);
     
+}
+.addlist::-webkit-scrollbar{
+    background-color: #c1c1c1;
+    box-shadow:inset -3px -3px 10px rgba(255, 255, 255, 0.982),inset 3px 3px 8px rgba(0, 0, 0, 0.237);
 }
 @media (max-width:700px) {
     .select,.addlist{
